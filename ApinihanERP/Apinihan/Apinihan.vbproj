@@ -1,0 +1,316 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{08B372C5-96AF-4491-9166-736EC1A2E64B}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Apinihan.My.MyApplication</StartupObject>
+    <RootNamespace>Apinihan</RootNamespace>
+    <AssemblyName>Apinihan</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Apinihan.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Apinihan.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=12.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=12.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ApinihanDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ApinihanDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="AssignmentTab.Designer.vb">
+      <DependentUpon>AssignmentTab.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AssignmentTab.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BookForm.Designer.vb">
+      <DependentUpon>BookForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BookForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CustomerForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CustomerForm.Designer.vb">
+      <DependentUpon>CustomerForm.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EquipmentInstall.Designer.vb">
+      <DependentUpon>EquipmentInstall.vb</DependentUpon>
+    </Compile>
+    <Compile Include="EquipmentInstall.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EventCity.Designer.vb">
+      <DependentUpon>EventCity.vb</DependentUpon>
+    </Compile>
+    <Compile Include="EventCity.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EventCostLookUp.Designer.vb">
+      <DependentUpon>EventCostLookUp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="EventCostLookUp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HighProfileClients.Designer.vb">
+      <DependentUpon>HighProfileClients.vb</DependentUpon>
+    </Compile>
+    <Compile Include="HighProfileClients.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IncomebyEventRpt.Designer.vb">
+      <DependentUpon>IncomebyEventRpt.vb</DependentUpon>
+    </Compile>
+    <Compile Include="IncomebyEventRpt.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginForm.Designer.vb">
+      <DependentUpon>LoginForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="LoginForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManagerForm.Designer.vb">
+      <DependentUpon>ManagerForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ManagerForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="PerformerNeverBooked.Designer.vb">
+      <DependentUpon>PerformerNeverBooked.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PerformerNeverBooked.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PerformerSearch.Designer.vb">
+      <DependentUpon>PerformerSearch.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PerformerSearch.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PieChart.Designer.vb">
+      <DependentUpon>PieChart.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PieChart.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SalariesPayableRpt.Designer.vb">
+      <DependentUpon>SalariesPayableRpt.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SalariesPayableRpt.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StartupExecutive.Designer.vb">
+      <DependentUpon>StartupExecutive.vb</DependentUpon>
+    </Compile>
+    <Compile Include="StartupExecutive.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StartupMiddleManager.Designer.vb">
+      <DependentUpon>StartupMiddleManager.vb</DependentUpon>
+    </Compile>
+    <Compile Include="StartupMiddleManager.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WorkerUpdate.Designer.vb">
+      <DependentUpon>WorkerUpdate.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WorkerUpdate.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AssignmentTab.resx">
+      <DependentUpon>AssignmentTab.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BookForm.resx">
+      <DependentUpon>BookForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomerForm.resx">
+      <DependentUpon>CustomerForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EquipmentInstall.resx">
+      <DependentUpon>EquipmentInstall.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EventCity.resx">
+      <DependentUpon>EventCity.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EventCostLookUp.resx">
+      <DependentUpon>EventCostLookUp.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HighProfileClients.resx">
+      <DependentUpon>HighProfileClients.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IncomebyEventRpt.resx">
+      <DependentUpon>IncomebyEventRpt.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginForm.resx">
+      <DependentUpon>LoginForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManagerForm.resx">
+      <DependentUpon>ManagerForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PerformerNeverBooked.resx">
+      <DependentUpon>PerformerNeverBooked.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PerformerSearch.resx">
+      <DependentUpon>PerformerSearch.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Performers Never Booked.rdlc" />
+    <EmbeddedResource Include="Income by Event.rdlc" />
+    <EmbeddedResource Include="High Profile Clients.rdlc" />
+    <EmbeddedResource Include="Events by City.rdlc" />
+    <EmbeddedResource Include="PieChart.resx">
+      <DependentUpon>PieChart.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Spread by City.rdlc" />
+    <EmbeddedResource Include="Salaries Payable.rdlc" />
+    <EmbeddedResource Include="SalariesPayableRpt.resx">
+      <DependentUpon>SalariesPayableRpt.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StartupExecutive.resx">
+      <DependentUpon>StartupExecutive.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StartupMiddleManager.resx">
+      <DependentUpon>StartupMiddleManager.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WorkerUpdate.resx">
+      <DependentUpon>WorkerUpdate.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ApinihanDataSet.xsc">
+      <DependentUpon>ApinihanDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="ApinihanDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ApinihanDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ApinihanDataSet.xss">
+      <DependentUpon>ApinihanDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pharmacophore.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\background.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\background2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\background3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\background31.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LOGO.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,486 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Apinihan
+</name>
+</assembly>
+<members>
+<member name="T:Apinihan.ApinihanDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Apinihan.ApinihanDataSet.AssignmentDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Apinihan.ApinihanDataSet.BookDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Apinihan.ApinihanDataSet.CustomerDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Apinihan.ApinihanDataSet.EquipmentDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Apinihan.ApinihanDataSet.EventDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Apinihan.ApinihanDataSet.InstallDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Apinihan.ApinihanDataSet.ManagerDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Apinihan.ApinihanDataSet.PerformerDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Apinihan.ApinihanDataSet.WorkerDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Apinihan.ApinihanDataSet.vw_EventVarCostDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Apinihan.ApinihanDataSet.WorkerViewDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Apinihan.ApinihanDataSet.MonthlyIncomeStatementDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Apinihan.ApinihanDataSet.SalaryPayableDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Apinihan.ApinihanDataSet.UsernamepassDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Apinihan.ApinihanDataSet.Assignment1DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Apinihan.ApinihanDataSet.Performer1DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Apinihan.ApinihanDataSet.Event1DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Apinihan.ApinihanDataSet.Customer1DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Apinihan.ApinihanDataSet.Event2DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Apinihan.ApinihanDataSet.AssignmentRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Apinihan.ApinihanDataSet.BookRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Apinihan.ApinihanDataSet.CustomerRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Apinihan.ApinihanDataSet.EquipmentRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Apinihan.ApinihanDataSet.EventRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Apinihan.ApinihanDataSet.InstallRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Apinihan.ApinihanDataSet.ManagerRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Apinihan.ApinihanDataSet.PerformerRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Apinihan.ApinihanDataSet.WorkerRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Apinihan.ApinihanDataSet.vw_EventVarCostRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Apinihan.ApinihanDataSet.WorkerViewRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Apinihan.ApinihanDataSet.MonthlyIncomeStatementRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Apinihan.ApinihanDataSet.SalaryPayableRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Apinihan.ApinihanDataSet.UsernamepassRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Apinihan.ApinihanDataSet.Assignment1Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Apinihan.ApinihanDataSet.Performer1Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Apinihan.ApinihanDataSet.Event1Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Apinihan.ApinihanDataSet.Customer1Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Apinihan.ApinihanDataSet.Event2Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Apinihan.ApinihanDataSet.AssignmentRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Apinihan.ApinihanDataSet.BookRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Apinihan.ApinihanDataSet.CustomerRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Apinihan.ApinihanDataSet.EquipmentRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Apinihan.ApinihanDataSet.EventRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Apinihan.ApinihanDataSet.InstallRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Apinihan.ApinihanDataSet.ManagerRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Apinihan.ApinihanDataSet.PerformerRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Apinihan.ApinihanDataSet.WorkerRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Apinihan.ApinihanDataSet.vw_EventVarCostRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Apinihan.ApinihanDataSet.WorkerViewRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Apinihan.ApinihanDataSet.MonthlyIncomeStatementRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Apinihan.ApinihanDataSet.SalaryPayableRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Apinihan.ApinihanDataSet.UsernamepassRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Apinihan.ApinihanDataSet.Assignment1RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Apinihan.ApinihanDataSet.Performer1RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Apinihan.ApinihanDataSet.Event1RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Apinihan.ApinihanDataSet.Customer1RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Apinihan.ApinihanDataSet.Event2RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Apinihan.ApinihanDataSetTableAdapters.AssignmentTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Apinihan.ApinihanDataSetTableAdapters.BookTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Apinihan.ApinihanDataSetTableAdapters.CustomerTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Apinihan.ApinihanDataSetTableAdapters.EquipmentTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Apinihan.ApinihanDataSetTableAdapters.EventTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Apinihan.ApinihanDataSetTableAdapters.InstallTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Apinihan.ApinihanDataSetTableAdapters.ManagerTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Apinihan.ApinihanDataSetTableAdapters.PerformerTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Apinihan.ApinihanDataSetTableAdapters.WorkerTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Apinihan.ApinihanDataSetTableAdapters.vw_EventVarCostTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Apinihan.ApinihanDataSetTableAdapters.WorkerViewTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Apinihan.ApinihanDataSetTableAdapters.MonthlyIncomeStatementTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Apinihan.ApinihanDataSetTableAdapters.SalaryPayableTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Apinihan.ApinihanDataSetTableAdapters.UsernamepassTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Apinihan.ApinihanDataSetTableAdapters.Assignment1TableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Apinihan.ApinihanDataSetTableAdapters.Performer1TableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Apinihan.ApinihanDataSetTableAdapters.Event1TableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Apinihan.ApinihanDataSetTableAdapters.Customer1TableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Apinihan.ApinihanDataSetTableAdapters.Event2TableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Apinihan.ApinihanDataSetTableAdapters.QueriesTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Apinihan.ApinihanDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Apinihan.ApinihanDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(Apinihan.ApinihanDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Apinihan.ApinihanDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(Apinihan.ApinihanDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Apinihan.ApinihanDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(Apinihan.ApinihanDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Apinihan.ApinihanDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Apinihan.ApinihanDataSetTableAdapters.TableAdapterManager.UpdateAll(Apinihan.ApinihanDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Apinihan.ApinihanDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Apinihan.ApinihanDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Apinihan.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:Apinihan.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:Apinihan.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:Apinihan.My.Resources.Resources.background">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Apinihan.My.Resources.Resources.background2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Apinihan.My.Resources.Resources.background3">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Apinihan.My.Resources.Resources.background31">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Apinihan.My.Resources.Resources.LOGO">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Apinihan.My.Resources.Resources.pharmacophore">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+</members>
+</doc>
