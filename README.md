@@ -16,10 +16,10 @@ Apinihan is an ERP software for event management
 # Screenshots
 <details>
   <summary>show screenshots</summary>
-  <img src="custForm.png" alt="customer form" width="50%" height="50%"/>
-  <img src="search.png" alt="search functionality' login" width="50%" height="50%"/>
-  <img src="executiveUI.png" alt="UI for executives" width="50%" height="50%"/>
-  <img src="mmUI.png" alt="UI for middle managers" width="50%" height="50%"/>
-  <img src="inventories.png" alt="equipments inventory" width="50%" height="50%"/>
-  <img src="login.png" alt="login page" width="50%" height="50%"/>
+  <img src="screenshots/custForm.png" alt="customer form" width="50%" height="50%"/>
+  <img src="screenshots/search.png" alt="search functionality' login" width="50%" height="50%"/>
+  <img src="screenshots/executiveUI.png" alt="UI for executives" width="50%" height="50%"/>
+  <img src="screenshots/mmUI.png" alt="UI for middle managers" width="50%" height="50%"/>
+  <img src="screenshots/inventories.png" alt="equipments inventory" width="50%" height="50%"/>
+  <img src="screenshots/login.png" alt="login page" width="50%" height="50%"/>
 </details>
