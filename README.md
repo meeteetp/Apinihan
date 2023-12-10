@@ -11,7 +11,10 @@ Apinihan is an ERP software for event management
 # Getting Started with Mock Data
 1. Mock data: run mockdb/BuildApinihan.sql.
 2. Mock usernames and passwords are in scripts/scripts/BuildApinihanCreateUsernamePassword.sql
-3. Useful scripts including sprocs and analytical SQls in scripts
+3. Useful scripts including sprocs and analytical SQLs in scripts
+
+# SSRS (Reporting Service)
+SSRS capabilities have been taken out of this version. I find no one having SSRS license...
 
 # Screenshots
 <details>
