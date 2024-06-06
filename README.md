@@ -17,7 +17,7 @@ Apinihan is an ERP software for event management
 SSRS capabilities have been taken out of this version. Moving to PowerBI
 
 # Screenshots
-<details>
+<details open>
   <summary>show screenshots</summary>
   <img src="screenshots/custForm.png" alt="customer form" width="50%" height="50%"/>
   <img src="screenshots/search.png" alt="search functionality' login" width="50%" height="50%"/>
